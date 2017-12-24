@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!-- 存放手写的sql -->
+<mapper namespace="com.info.dao.CityMapper">
+
+	<resultMap id="BaseResultMapVo" type="com.info.model.City">
+			<result property="id" column="ID"/>
+			<result property="name" column="Name"/>
+			<result property="countryCode" column="CountryCode"/>
+			<result property="district" column="District"/>
+			<result property="population" column="Population"/>
+	</resultMap>
+	
+</mapper>
