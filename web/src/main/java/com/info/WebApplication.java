@@ -1,4 +1,4 @@
-package com.ratel.web;
+package com.info;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
